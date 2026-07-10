@@ -4,8 +4,8 @@ A skill for AI coding agents that interrupts a session to check whether the
 human operator still holds a working mental model of the code the AI has
 been writing.
 
-Grounded in Endsley's three-level situation awareness (SA) model from
-human-automation teaming research, applied to AI-assisted coding.
+Grounded in Endsley's three-level situation awareness (SA) model[^endsley1995]
+from human-automation teaming research, applied to AI-assisted coding.
 
 ## Why
 
@@ -100,3 +100,9 @@ First pass. Not yet extensively tested in-the-wild.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## References
+
+[^endsley1995]: Endsley, M. R. (1995). Toward a theory of situation awareness
+    in dynamic systems. *Human Factors*, 37(1), 32–64.
+    <https://doi.org/10.1518/001872095779049543>

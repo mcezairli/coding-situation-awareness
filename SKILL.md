@@ -3,7 +3,7 @@ name: coding-situation-awareness
 description: >
   Interrupts an AI-assisted coding session to probe the operator's situation
   awareness of recent AI-written changes. Grounded in Endsley's three-level
-  SA model, with required coverage of data-flow, filters, and assumptions
+  SA model (Endsley, 1995), with required coverage of data-flow, filters, and assumptions
   when the changed code touches data. Use when the operator wants to check
   they are still in the loop, or before handing work off. Never blocks the
   session.

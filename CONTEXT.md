@@ -7,7 +7,7 @@ Grounded in situation awareness (SA) research from human-automation teaming.
 ## Glossary
 
 ### Situation Awareness (SA)
-Endsley's three-level model, adapted to AI-assisted coding:
+Endsley's three-level model (Endsley, 1995a), adapted to AI-assisted coding:
 - **Level 1 — Perception.** What elements/changes exist in the current state of
   the code. ("What did the agent just change?")
 - **Level 2 — Comprehension.** What those elements mean together — how they
@@ -116,7 +116,7 @@ After each probe, if the operator's answer is wrong, hedged, or absent, the
 skill briefly states the actual answer from the code, citing `file:line`.
 This turns the probe into a live re-boarding of the operator's mental model
 — SA is *restored*, not just measured. Endsley's own work stresses that
-SA-restoring interventions matter more than SA measurement.
+SA-restoring interventions matter more than SA measurement (Endsley, 1995a).
 
 ### SA-Gap Summary
 The skill's output is not a score. It is (a) a repair transcript and (b) a
@@ -177,8 +177,9 @@ probed hunk beat an unprobed one if asked.
 ### Delivery Protocol
 Probes are delivered **one at a time**. The operator answers from memory,
 then the skill runs the Repair Step, then the next probe. This mirrors
-SAGAT methodology: the answer reflects the operator's *current* mental
-model, not what they can re-derive by re-reading the code on the spot.
+SAGAT methodology (Endsley, 1995b): the answer reflects the operator's
+*current* mental model, not what they can re-derive by re-reading the
+code on the spot.
 
 ### Answer Grades
 Three grades only:
@@ -204,6 +205,15 @@ dismissible, and issued at most once per triggering condition. The nudge
 is guidance for the surrounding coding agent, not behaviour of the skill
 itself — but it lives here because it is meaningless without the skill it
 points to.
+
+## References
+
+- Endsley, M. R. (1995a). Toward a theory of situation awareness in dynamic
+  systems. *Human Factors*, 37(1), 32–64.
+  <https://doi.org/10.1518/001872095779049543>
+- Endsley, M. R. (1995b). Measurement of situation awareness in dynamic
+  systems. *Human Factors*, 37(1), 65–84.
+  <https://doi.org/10.1518/001872095779049499>
 
 ### Return-From-Away Mode
 A variant invocation: the operator opens a repo they haven't touched in a

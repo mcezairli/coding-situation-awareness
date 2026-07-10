@@ -18,10 +18,13 @@ There is a real design fork in what a probe looks like:
   `fetchUser`?" Feel narrower and mechanical.
 
 Open recall is the default temptation because it looks richer. Situation
-awareness research (Endsley; SAGAT — Situation Awareness Global Assessment
-Technique) rejects it for measurement, because open recall lets the
-operator produce fluent, coherent-sounding answers that mask actual gaps in
-their model. That is the exact failure mode we are trying to catch.
+awareness research rejects it for measurement (Endsley, 1995a), because
+open recall lets the operator produce fluent, coherent-sounding answers
+that mask actual gaps in their model. SAGAT (the Situation Awareness Global
+Assessment Technique; Endsley, 1995b) responds by using closed, targeted
+probes against a known ground truth — which is the shape we adopt here.
+That fluent-but-empty answer is the exact failure mode we are trying to
+catch.
 
 ## Decision
 
@@ -76,3 +79,12 @@ Open-recall probes are banned.
   mean. That is why this is written down: future contributors who look at
   the skill and think *"why not open questions? they'd be richer"* need to
   see the reason before changing it.
+
+## References
+
+- Endsley, M. R. (1995a). Toward a theory of situation awareness in dynamic
+  systems. *Human Factors*, 37(1), 32–64.
+  <https://doi.org/10.1518/001872095779049543>
+- Endsley, M. R. (1995b). Measurement of situation awareness in dynamic
+  systems. *Human Factors*, 37(1), 65–84.
+  <https://doi.org/10.1518/001872095779049499>
